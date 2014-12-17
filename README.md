@@ -10,6 +10,7 @@ sample
 
 YML file content:
 
+    ---
     key1: 1
     key2: 'val2'
     key3: "val3"
@@ -29,7 +30,7 @@ usage
 ========
     fs   = require('fs');
     myml = require('meta-yaml');
-    var json_out = myml.parse(fs.readFileSync("test-yml-file.yml", 'utf8'));
+    var json_out = myml.parse(fs.readFileSync("test-file.yml", 'utf8'));
 
     
 install

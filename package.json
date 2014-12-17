@@ -1,6 +1,6 @@
 {
   "name": "meta-yaml",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JSON Metafile generator for rsa-yaml",
   "keywords": [
     "yaml",
@@ -10,12 +10,9 @@
   "author": "R. Saltuk Alakus <saltukalakus@gmail.com>",
   "main": "./lib/MetaYaml.js",
   "dependencies": {
-    "argparse": "^0.1.15",
-    "glob": "^3.1.21",
-    "fs": "0.0.2"
+    "lodash": "~2.4.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/saltukalakus/meta-yaml.git"
